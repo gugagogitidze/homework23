@@ -77,7 +77,6 @@ function smallletters(sentence) {
 
 console.log(smallletters(sentence));
 
-
 // 12. რიცხვების კვადრატები: დაწერე ფუნქცია, რომელიც მასივში არსებულ თითოეულ რიცხვს კვადრატში გაამრავლებს map-ის გამოყენებით.
 
 let num3 = [24, 14, 16, 9];
@@ -89,7 +88,6 @@ function squarenummber(num3) {
 }
 
 console.log(squarenummber(num3));
-
 
 // 14. ქულების ზრდა: გქონდეს სტუდენტების მასივი, სადაც თითოეულ სტუდენტს აქვს ქულა. forEach-ის მეშვეობით თითოეულ ქულას დაუმატე 5 ქულა.
 let students = [
@@ -105,7 +103,6 @@ students.forEach(function (student) {
 
 console.log(students);
 
-
 // 19. რიცხვების ფილტრაცია: დაწერე ფუნქცია, რომელიც filter-ის გამოყენებით დააბრუნებს მხოლოდ იმ რიცხვებს, რომლებიც 10-ზე მეტია.
 
 let numbers2 = [5, 12, 8, 20, 7, 15, 3, 25];
@@ -118,4 +115,3 @@ function filterbacktthanten(arr) {
 
 let filteredNumbers = filterbacktthanten(numbers);
 console.log(filteredNumbers);
-
